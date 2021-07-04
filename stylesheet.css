@@ -1,0 +1,139 @@
+/* @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+.section-intro {
+	height: 820px;
+	background-image: url(burger_slider.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-intro h1 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.section-intro header {
+	display: flex;
+	flex: 4;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-item ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+  
+.nav-item li {
+	float: right;
+}
+  
+.nav-item li a {
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+	text-decoration: none;
+}
+.nav-item a{
+	padding: 8px;
+	display: inline-block;
+	color: #ffffff;
+	
+}
+
+.button-header-wrapper{
+	color: #ffffff;
+    display: inline-block;
+    padding: 80px 10px;
+}
+
+.button-header {
+background-color: #ffffff;
+  border: none;
+  color: rgb(48, 156, 21);
+  padding: 8px 18px;
+  text-align: center;
+  font-size: 16px;
+  margin: 1px 1px;
+  display:inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8%;
+  }
+
+  .button-header:hover{
+	opacity: 82%;
+  }
+
+
+  .about-section {
+	display: flex;
+	align-items: center;
+	background-color: #f3f3f3c0;
+	padding: 50px 30px;
+}
+
+.about-section p,
+.about-section h3 {
+	text-align: left;
+	width: 100%;
+	margin: auto;
+	padding: 1px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+.about-section h5{
+   color: rgb(10, 161, 10);
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 8px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  
+  .button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .button2 {
+	background-color: #4CAF50; 
+	color: white; 
+  }
+  
+  .button2:hover {
+	background-color: #00ba19;
+	color: white;
+  }
+
+
+.row-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+
